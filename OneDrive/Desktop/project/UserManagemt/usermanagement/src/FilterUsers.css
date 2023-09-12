@@ -1,0 +1,56 @@
+/* Style for the container holding all the filter options */
+
+.filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* Style for each filter section */
+
+.filter-section {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 33.33%;
+    margin-bottom: 10px;
+}
+
+
+/* Style for the heading of each filter section */
+
+.filter-section h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* Style for the select dropdowns */
+
+.filter-section select {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+
+/* Style for the select dropdown options */
+
+.filter-section option {
+    font-size: 10px;
+}
+
+
+/* Hover and focus styles for the select dropdown */
+
+.filter-section select:hover,
+.filter-section select:focus {
+    border-color: #007bff;
+    outline: none;
+}
